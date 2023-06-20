@@ -1,0 +1,37 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2 {
+    background-color: orange;
+    text-align: center;
+    border-style:ridge;
+}
+
+h2{
+    background-color: lightblue;
+}
+
+ul li{
+    text-align: left;
+    color:darkolivegreen;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:500px;
+    height:auto;
+    border: 5px;
+    border-style: solid;
+}
+
+div.link-homepage{
+    text-align: center;
+    background-color: aliceblue;
+    color:green;
+    text-transform: uppercase;
+    border:dashed;
+    border-radius:5px;
+}
