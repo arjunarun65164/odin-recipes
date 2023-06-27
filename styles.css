@@ -1,0 +1,123 @@
+/*
+Things to do:
+1. Format the titles to center + bold + light blue background 
+
+Homepage:
+Center everything
+remove bullet points in list items
+Bolden Name, Email Instagram
+Add small icon next to each contact info thing and link it
+
+Recipes:
+Frame background with a border 5 px away from display
+Center image below the title
+Same title format as homepage
+Put Ingredients and Steps in the same line
+Center the homepage link and format it to look like a button in the bottom */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    display:block;
+    margin:10px auto;
+    border: green solid 3px;
+    width:45%;
+
+}
+
+.ingredients, .steps{
+    display:inline-block;
+    vertical-align: top;
+    width:45%;
+}
+
+.steps ol{
+    text-align: center;
+}
+
+.same-line{
+    margin:20px 130px;
+}
+
+.link-homepage{
+    display:block;
+    text-align: center;
+    border:black solid 1.5px;
+    padding:4px;
+    width:100px;
+    margin: auto auto;
+    margin-bottom:20px;
+}
+
+.dosa, .crepe, .pasta{
+    margin:25%;
+    margin-top:20px;
+    background-color: rgb(215, 240, 248);
+    border:black solid 2.5px;
+}
+
+.descriptions p{
+    margin: 5px auto;
+    margin-bottom: 10px;
+    text-align: center;
+    width:75%;
+}
+
+.title, h2{
+    text-align: center;
+    border: black solid 1px;
+    width:300px;
+    border-radius:.5em;
+    margin:20px auto;
+    background-color: bisque;
+    padding:5px;
+}
+
+h2{
+    width:200px;
+    background-color: grey;
+    color:white;
+    font-weight: 500;
+    padding:10px;
+}
+
+
+
+
+.index{
+    text-align: center;
+    border:black solid 4px;
+    padding:10px 0px;
+    margin:20px 500px;
+}
+.index h2{
+    border: chocolate dashed 1px;
+    border-radius:.5em;
+    margin: 10px auto;
+    display:inline-block;
+    padding:5px;
+
+}
+
+.intro p{
+    width:500px;
+    margin: 0px auto;
+    margin-bottom:15px;
+}
+
+ul{
+    list-style:none;
+    margin:0px auto;
+    border:black inset 2px;
+    padding:5px;
+    width:100px;
+    border-radius: 1em;
+    margin-bottom:15px;
+    text-align: center;
+}
+
+.index span{
+    font-weight: bold;
+}
